@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.home_bg{
+  background-image: url(./assets/images/Home_bg.png);
+  height: 100vh;
+}
+.title{
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem; /* 133.333% */
+  letter-spacing: 0.00625rem;
+  stroke: #000000;
+}
+.navbar-text{
+  text-align: center;
+/* link */
+font-family: Montserrat;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.5rem; /* 171.429% */
+letter-spacing: 0.0125rem;
+color: #FFFFFF !important;
+}
+.btn-join{
+  border-radius: 0.3125rem;
+background: var(--primary-color, #96BB7C);
+color: #FFFFFF !important;
+border-color: transparent;
+}
+.text-1{
+  color: var(--primary-color, #96BB7C);
+
+/* h5 */
+font-family: Montserrat;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: 1.5rem; /* 150% */
+letter-spacing: 0.00625rem;
+}
+.text-2{
+  color: var(--light-text-color, #FFF);
+text-align: center;
+
+/* h1 */
+font-family: Montserrat;
+font-size: 3.625rem;
+font-style: normal;
+font-weight: 700;
+line-height: 5rem; /* 137.931% */
+letter-spacing: 0.0125rem;
+}
+.text-3{
+  color: var(--light-text-color, #FFF);
+text-align: center;
+font-family: Montserrat;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.875rem; /* 150% */
+letter-spacing: 0.0125rem;
+}
+.link-text{
+  color: #FFFFFF !important;
+  font-family: Montserrat;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.375rem; /* 157.143% */
+  letter-spacing: 0.0125rem;
+}
+.intro_div{
+  background-color: #2D4059;
+  height: 100vh;
+}
