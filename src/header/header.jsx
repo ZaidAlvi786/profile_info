@@ -18,6 +18,7 @@ export default function Header() {
             </div>
             <div className='col-6 d-flex gap-4 justify-content-end'>
             <span className='navbar-text' role='button'>Login</span>
+            <span className='navbar-text' role='button'><Link to='/About' style={{ textDecoration: 'none',color:'#FFFFFF' }}>About</Link></span>
             <button className='d-flex gap-3 align-items-center px-3 btn-join'>
                 <Link to='/Intro' className='link-text' style={{ textDecoration: 'none' }}>JOIN US</Link>
                  <BiRightArrowAlt />
