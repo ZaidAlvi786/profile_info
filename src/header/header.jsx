@@ -11,8 +11,8 @@ export default function Header() {
                 </div>
                 <div className='d-flex col-8 justify-content-between'>
                 <span className='navbar-text' role='button'>Home</span>
-                <span className='navbar-text' role='button'>Product</span>
-                <span className='navbar-text' role='button'>Pricing</span>
+                <span className='navbar-text' role='button'><Link className='navbar-text' to='/Product' style={{ textDecoration: 'none' }}>Product</Link></span>
+                <span className='navbar-text' role='button'><Link className='navbar-text' to='/Pricing' style={{ textDecoration: 'none' }}>Pricing</Link></span>
                 <span className='navbar-text' role='button'>Contact</span>
                 </div>
             </div>

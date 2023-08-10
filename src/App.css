@@ -111,7 +111,8 @@ letter-spacing: 0.0125rem;
 }
 .intro_div{
   background-color: #2D4059;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
 }
 .line{
   background: #FF7171;
@@ -233,4 +234,56 @@ font-style: normal;
 font-weight: 700;
 line-height: 5rem; /* 137.931% */
 letter-spacing: 0.0125rem;
+}
+.product_cover{
+  background: url(./assets/images/product-cover-124\ sec-.png), lightgray 50% / cover no-repeat;
+  width: 21.75rem;
+height: 18.75rem;
+flex-shrink: 0;
+}
+.product_cover2{
+  background: url(./assets/images/product-cover-125\ sec-.png), lightgray 50% / cover no-repeat;
+  width: 21.75rem;
+height: 18.75rem;
+flex-shrink: 0;
+}
+.product_cover3{
+  background: url(./assets/images/product-cover-126\ sec-.png), lightgray 50% / cover no-repeat;
+  width: 21.75rem;
+height: 18.75rem;
+flex-shrink: 0;
+}
+.icon_div{
+  border-radius: 50%;
+background: var(--light-background-color, #FFF);
+width: 2.5rem;
+height: 2.5rem;
+padding: 0.625rem;
+
+}
+.sale_tag{
+  border-radius: 0.1875rem;
+background: var(--danger-color, #E74040);
+
+/* light-drop-shadow */
+box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+padding: 0rem 0.625rem;
+display: inline-flex;
+align-items: center;
+}
+.product_detail{
+  width: 21.75rem;
+  display: flex;
+padding: 1.5625rem 1.5625rem 2.1875rem 1.5625rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.625rem;
+align-self: stretch;
+background-color: #FFFFFF;
+}
+
+.rounded_div{
+  border-radius: 2.3125rem;
+border: 1px solid var(--primary-color, #96BB7C);
+padding: 0.625rem 1.25rem;
 }
