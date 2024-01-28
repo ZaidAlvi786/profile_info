@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: { colors: {
       'darkPurple': '#28293E',
+      'lightGray': 'rgba(255, 255, 255, 0.3)'
     },
     inset: {
       '0.9rem': '0.9rem',
